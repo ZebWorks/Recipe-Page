@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+}
+
+.card__content {
+  width: 714px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin-block: 5rem;
+  
+}
+
+.card__content img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  padding-block: 1rem;
+}
+
+.card__preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  margin-block: 1.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card__preparation li {
+  padding-bottom: 0.5rem;
+}
+
+.card__titles {
+  color: hsl(14, 45%, 36%);
+}
+
+p,
+li,
+td {
+  color: hsl(0, 0%, 37%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+li span {
+  font-weight: 700;
+  color: hsl(0, 0%, 37%);
+  font-family: 'Outfit', sans-serif;
+}
+
+h3, ul {
+  color: hsl(332, 51%, 32%);
+}
+
+.card__preparation-text {
+  margin-block: 1.5rem;
+}
+
+.card__preparation-text li {
+  padding-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.nutrition-facts table {
+  width: 100%;
+  table-layout: fixed; 
+}
+
+.nutrition-facts td {
+  padding: 8px 8px 8px 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.card__titles-value{
+  color: hsl(14, 45%, 36%);
+  font-family: 'Outfit', sans-serif;
+}
+
+/*====== MOBILE ======*/
+
+@media screen and (max-width: 600px) { 
+
+
+  .card__content {
+    width: auto; 
+    max-width: 100%; 
+    padding: 2rem; 
+    margin-block: 0;
+  }
+
+  .card__content img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0;
+    padding: -2rem;
+}
+  
+
+  
+/*Don't know how to take the image out of the padding*/
+
+}
